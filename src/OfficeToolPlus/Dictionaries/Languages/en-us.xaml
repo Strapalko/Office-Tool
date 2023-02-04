@@ -1,26 +1,26 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:sys="clr-namespace:System;assembly=System.RunTime"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/prezentace“
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml“
+                    xmlns:sys="clr-namespace:System;assembly=System.RunTime“
                     xml:space="preserve">
     
-    <!-- Country settings, it is used to get information from server. -->
-    <sys:String x:Key="Culture">en-us</sys:String>
-    <!-- Products name settings, "en-us" is default value if not set. -->
-    <sys:String x:Key="ProductDict">en-us</sys:String>
+    <!-- Nastavení země, slouží k získávání informací ze serveru. -->
+    <sys:Řetězec x:Key="Kultura">cs-us</sys:Řetězec>
+    <!-- Nastavení názvu produktů, „en-us“ je výchozí hodnota, pokud není nastavena. -->
+    <sys:Řetězec x:Key="ProductDict">en-us</sys:String>
     
-    <!-- Eula content -->
-    <sys:String x:Key="Eula.Title">License Terms</sys:String>
-    <sys:String x:Key="Eula.Content">By using this software, you must accept the [Software License Terms]({0}) and [Microsoft Services Agreement]({1}).</sys:String>
+    <!-- Obsah Euly -->
+    <sys:Řetězec x:Key="Eula.Title">Licenční podmínky</sys:String>
+    <sys:String x:Key="Eula.Content">Používáním tohoto softwaru musíte přijmout [Podmínky softwarové licence]({0}) a [Smlouva o službách Microsoft]({1}).</sys:String>
 
-    <!-- Custom control -->
-    <sys:String x:Key="Yerong_String_ToggleButton.Unset">Unset</sys:String>
-    <sys:String x:Key="Yerong_String_ToggleButton.Off">Off</sys:String>
-    <sys:String x:Key="Yerong_String_ToggleButton.On">On</sys:String>
-    <sys:String x:Key="Yerong_String_MicaMenu.Name">Menu</sys:String>
-    <sys:String x:Key="Yerong_String_MicaMenu.HelpText">Click to open context menu.</sys:String>
+    <!-- Vlastní ovládání -->
+    <sys:Řetězec x:Klíč="Yerong_String_ToggleButton.Unset">Unset</sys:String>
+    <sys:Řetězec x:Key="Yerong_String_ToggleButton.Off">Vypnuto</sys:Řetězec>
+    <sys:Řetězec x:Key="Yerong_String_ToggleButton.On">On</sys:String>
+    <sys:Řetězec x:Klíč="Yerong_String_MicaMenu.Název">Nabídka</sys:Řetězec>
+    <sys:Řetězec x:Key="Yerong_String_MicaMenu.HelpText">Kliknutím otevřete místní nabídku.</sys:String>
     
     <!-- Title bar -->
-    <sys:String x:Key="Title_Bar_Command_Box">Command</sys:String>
+    <sys:String x:Key="Title_Bar_Command_Box">Command</sys:String>      
 
     <!-- Navigation bar -->
     <sys:String x:Key="Navigation_Menu.Name">Navigation menu</sys:String>
